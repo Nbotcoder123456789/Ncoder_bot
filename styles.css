@@ -1,0 +1,174 @@
+/* Hiệu ứng nền chuyển màu gradient mượt */
+body {
+    background: linear-gradient(45deg, #ff0000, #000000);
+    background-size: 400% 400%;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    animation: gradientBG 5s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.small-button {
+    width: 100%; /* Make the button the same width as the input */
+    padding: 10px; /* Adjust padding as desired */
+    font-size: 16px; /* Adjust font size to be smaller */
+    cursor: pointer; /* Ensure pointer cursor on hover */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; /* Ẩn mặc định */
+}
+
+.error.show {
+    display: block; /* Hiển thị khi có lỗi */
+}
+
+.hidden {
+    display: none;
+}
+
+#initialGreeting {
+    text-align: center;
+    margin: 10px;
+}
+
+#countdownText {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#countdownNumber {
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+button {
+    background-color: #ffae00;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    transition: background-color 0.5s, transform 0.5s, opacity 0.5s;
+}
+
+button:hover {
+    background-color: rgb(255, 217, 0);
+    transform: scale(1.1);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.section p {
+    display: none; /* Ẩn ban đầu */
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.section.show p {
+    display: block;
+    opacity: 1;
+}
+
+#earthGlobeVideo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+#earthGlobeVideo::-webkit-media-controls {
+    display: none !important;
+}
+
+#earthGlobeVideo::-moz-media-controls {
+    display: none !important;
+}
+
+#earthGlobeVideo::-ms-media-controls {
+    display: none !important;
+}
+
+#earthGlobeVideo::-o-media-controls {
+    display: none !important;
+}
+
+#earthGlobeVideo::media-controls {
+    display: none !important;
+}
+
+.fade-in {
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(20px); }
+}

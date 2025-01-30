@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biến Đổi Khí Hậu Việt Nam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="initialGreeting">
+            <p id="greetingText">Xin chào bạn nhé! Có duyên lắm chúng ta mới gặp nhau vậy sao bạn không cho tớ xin 1 like nhỉ?</p>
+            <p id="countdownText" class="hidden">Các nội dung sẽ xuất hiện sau <span id="countdownNumber">5</span></p>
+        </div>
+        <button id="startBtn" class="hidden">START NOW</button>
+        <div id="inputName" class="hidden">
+            <label for="name">Nhập tên của bạn ngay đây👉👉</label>
+            <input type="text" id="name" name="name">
+            <button id="submitName">Gửi 👍👍</button>
+            <p id="nameError" class="hidden">Hãy nhập tên</p>
+        </div>
+        
+        <div id="climateChange" class="hidden">
+            <button id="climateBtn">Biến đổi khí hậu ở Việt Nam</button>
+        </div>
+        
+        <div id="earthGlobe" class="hidden">
+            <video id="earthGlobeVideo" autoplay muted loop>
+                <source src="vietnam-map.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="infoSections" class="hidden">
+            <div id="section1" class="section hidden"></div>
+            <div id="section2" class="section hidden"></div>
+            <div id="section3" class="section hidden"></div>
+            <div id="section4" class="section hidden"></div>
+        </div>
+
+        <div id="thankYou" class="hidden">
+            <h1>Cảm ơn bạn, <span id="userName"></span>!</h1>
+            <p>Tác giả: Trần Đức Nam - Lớp 9A4 - THCS Kim Long</p>
+            <p>Thiết kế & Ý tưởng: Trần Đức Nam - Lớp 9A4 - THCS Kim Long</p>
+            <p>Phần mềm chuyên dụng khai phá IDE: Visual Studio</p>
+            <audio id="thanksAudio" autoplay>
+                <source src="see-you-again.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <button id="nextBtn" class="hidden">Tiếp theo</button>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
