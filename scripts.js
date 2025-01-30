@@ -164,9 +164,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Bằng chứng:</strong> Nhiệt độ trung bình toàn cầu đã tăng khoảng 1,1°C từ thời kỳ tiền công nghiệp (khoảng năm 1880). Theo báo cáo của Tổ chức Khí tượng Thế giới (WMO), năm 2020 là một trong ba năm nóng nhất từng được ghi nhận.</p>
             <p>Tháng 6 năm 2020, nhiệt độ tại Hà Nội đạt mức 40°C, gây ra tình trạng nắng nóng kỷ lục, ảnh hưởng nghiêm trọng đến sức khỏe của người dân.</p>
             <p><strong>Hậu quả:</strong> Nhiệt độ tăng cao dẫn đến các hiện tượng thời tiết cực đoan như nắng nóng kéo dài. Điều này đã gây ra hàng nghìn ca tử vong và bệnh tật liên quan đến nhiệt độ cao.</p>
-            <img src="images/temperature_graph.png" alt="Temperature Graph" style="width: 25%; height: auto;">
+            <img src="temperature_graph.png" alt="Temperature Graph" style="width: 25%; height: auto;">
             <video controls autoplay muted loop style="width: 25%;">
-                <source src="videos/temperature_video.mp4" type="video/mp4">
+                <source src="temperature_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -180,9 +180,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Bằng chứng:</strong> Theo Cơ quan Quản lý Khí quyển và Đại dương Quốc gia Hoa Kỳ (NOAA), số lượng bão mạnh (cấp 4 và 5) trên toàn thế giới đã tăng lên trong những thập kỷ gần đây.</p>
             <p>Ví dụ, bão Haiyan (Yolanda) năm 2013 là một trong những cơn bão mạnh nhất từng được ghi nhận, gây thiệt hại nghiêm trọng ở Philippines và ảnh hưởng đến Việt Nam.</p>
             <p><strong>Hậu quả:</strong> Bão mạnh và xuất hiện thường xuyên hơn gây ra thiệt hại lớn về tài sản và con người. Bão số 9 (Molave) năm 2020 tại Việt Nam đã gây thiệt hại nghiêm trọng với hơn 100 người chết và mất tích, hàng trăm ngôi nhà bị phá hủy.</p>
-            <img src="images/storm_image.png" alt="Storm Image" style="width: 25%; height: auto;">
+            <img src="storm_image.png" alt="Storm Image" style="width: 25%; height: auto;">
             <video controls autoplay muted loop style="width: 25%;">
-                <source src="videos/storm_video.mp4" type="video/mp4">
+                <source src="storm_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -196,9 +196,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Bằng chứng:</strong> Mực nước biển toàn cầu đã tăng khoảng 20 cm kể từ năm 1880, và tốc độ dâng mực nước biển hiện nay là khoảng 3,2 mm mỗi năm. Báo cáo của Ủy ban Liên chính phủ về Biến đổi Khí hậu (IPCC) dự báo rằng mực nước biển có thể tăng từ 0,3 đến 1 mét vào cuối thế kỷ 21.</p>
             <p>Đồng bằng sông Cửu Long, nơi sinh sống và canh tác của hàng triệu người, đang chịu ảnh hưởng nặng nề bởi xâm nhập mặn, gây thiệt hại lớn cho sản xuất lúa gạo.</p>
             <p><strong>Hậu quả:</strong> Mực nước biển dâng cao đe dọa các khu vực ven biển và đảo quốc. Ví dụ, Maldives và Tuvalu đang đối mặt với nguy cơ bị ngập lụt hoàn toàn, đe dọa đến cuộc sống của hàng trăm nghìn người.</p>
-            <img src="images/sea_level_graph.png" alt="Sea Level Graph" style="width: 25%; height: auto;">
+            <img src="sea_level_graph.png" alt="Sea Level Graph" style="width: 25%; height: auto;">
             <video controls autoplay muted loop style="width: 25%;">
-                <source src="videos/sea_level_video.mp4" type="video/mp4">
+                <source src="sea_level_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -212,9 +212,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <p><strong>Bằng chứng:</strong> Theo IPCC, tần suất và cường độ của các đợt hạn hán đã gia tăng tại nhiều khu vực trên thế giới, đặc biệt là ở vùng Địa Trung Hải, Tây Phi và Tây Nam Hoa Kỳ.</p>
             <p>Ví dụ, hạn hán ở California từ năm 2011 đến 2017 đã làm giảm sản lượng nông nghiệp và gây thiệt hại kinh tế lớn. Tại Việt Nam, hạn hán và thiếu nước đang trở thành vấn đề nghiêm trọng, ảnh hưởng đến đời sống của hàng triệu người dân.</p>
             <p>Tại các tỉnh Tây Nguyên, hạn hán kéo dài đã gây ra thiệt hại lớn cho sản xuất cà phê và các cây trồng khác. Người dân phải đối mặt với tình trạng thiếu nước sinh hoạt và nước tưới tiêu.</p>
-            <img src="images/drought_image.jpg" alt="Drought Image" style="width: 25%; height: auto;">
+            <img src="drought_image.jpg" alt="Drought Image" style="width: 25%; height: auto;">
             <video controls autoplay muted loop style="width: 25%;">
-                <source src="videos/drought_video.mp4" type="video/mp4">
+                <source src="drought_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
